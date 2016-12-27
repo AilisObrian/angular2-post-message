@@ -21,25 +21,23 @@
     "deploy": "npm install && npm run ngc-build && npm publish ./"
   },
   "peerDependencies": {
-    "@angular/compiler": "~2.2.2",
-    "@angular/core": "~2.2.2",
-    "@angular/common": "~2.2.2",
-    "@angular/platform-browser": "~2.2.2",
-    "@angular/platform-webworker": "~2.2.2",
+    "@angular/compiler": ">=2.2.2",
+    "@angular/core": ">=2.2.2",
+    "@angular/common": ">=2.2.2",
+    "@angular/platform-browser": ">=2.2.2",
+    "@angular/platform-webworker": ">=2.2.2",
 
-    "ts-smart-logger": "~0.0.4",
-
-    "core-js": "~2.4.1",
+    "core-js": ">=2.4.1",
     "rxjs": "~5.0.0-rc.4",
-    "zone.js": "~0.6.25"
+    "zone.js": ">=0.6.25"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "~2.2.2",
-    "@angular/compiler": "~2.2.2",
-    "@angular/core": "~2.2.2",
-    "@angular/common": "~2.2.2",
-    "@angular/platform-browser": "~2.2.2",
-    "@angular/platform-webworker": "~2.2.2",
+    "@angular/compiler-cli": ">=2.2.2",
+    "@angular/compiler": ">=2.2.2",
+    "@angular/core": ">=2.2.2",
+    "@angular/common": ">=2.2.2",
+    "@angular/platform-browser": ">=2.2.2",
+    "@angular/platform-webworker": ">=2.2.2",
 
     "ts-smart-logger": "~0.0.4",
 
@@ -47,9 +45,9 @@
     "@types/core-js": "~0.9.34",
     "@types/node": "~6.0.46",
 
-    "core-js": "~2.4.1",
+    "core-js": ">=2.4.1",
     "rxjs": "~5.0.0-rc.4",
-    "zone.js": "~0.6.25"
+    "zone.js": ">=0.6.25"
   },
   "repository": {
     "type": "git",
